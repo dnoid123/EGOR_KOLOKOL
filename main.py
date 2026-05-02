@@ -69,7 +69,7 @@ def generate_task():
     label_type_info.config(text=f"Тип: {task_type}")
 
 root = Tk()
-root.title("Задачник")
+root.title("Random Task Generator")
 root.geometry("600x500")
 root.resizable(False, False)
 
